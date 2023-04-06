@@ -1,0 +1,35 @@
+.col-12{
+    width: 100%;
+}
+.col-3{
+    width: 25%;
+}
+.col-6{
+    width: 50%;
+}
+.col-4{
+    width: 33.333%;
+}
+@media only screen and (max-width: 1000px) {
+
+    nav{
+        .nav-right{
+            ul{
+                .respons_li2{
+                    display: block !important;
+                }
+                .respons_li{
+                    display: none !important;
+                }
+            }
+        }
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    
+
+}
